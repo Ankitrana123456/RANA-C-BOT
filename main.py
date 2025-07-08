@@ -65,7 +65,7 @@ async def account_login(bot: Client, m: Message):
                     f"│   ├── 🔸 **Fast, smooth & user-friendly**\n"
                     f"│   └── 🔸 **Zero ads, zero BS 🚫**\n"
                     f"├── **🚀 How To Use:**\n"
-                    f"│   ├── 👉 Send `/txt` to start\n"
+                    f"│   ├── 👉 Send `/Ankit1` to start\n"
                     f"│   └── 🛑 Send `/stop` to stop me\n"
                     f"├── **💡 Pro Tip:**\n"
                     f"│   └── **I'm getting better every day 😎**\n"
@@ -85,7 +85,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["txt"]))
+@bot.on_message(filters.command(["Ankit1"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
                         "📂✨ **Please Send Your TXT File for Download** ✨📂\n"
@@ -165,7 +165,7 @@ async def account_login(bot: Client, m: Message):
     raw_text3 = input3.text
 
     if raw_text3 == 'df':
-        MR = " S A K S H A M "
+        MR = " 𝗢𝘄𝗻𝗲𝗿_𝟬𝟬𝟰"
     else:
         MR = raw_text3
     await input3.delete(True)
@@ -186,7 +186,7 @@ async def account_login(bot: Client, m: Message):
     await input11.delete(True)
 
 
-    await editable.edit("Now send the Thumb url For Custom Thumbnail.\nExample » `https://envs.sh/Hlb.jpg` \n Or if don't want Custom Thumbnail send = `no`")
+    await editable.edit("Now send the Thumb url For Custom Thumbnail.\nExample » `no` \n Or if don't want Custom Thumbnail send = `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -425,7 +425,7 @@ async def account_login(bot: Client, m: Message):
                             f"│   ├── 🎞️ Quality: {raw_text2}\n"
                             f"│   ├── 🔗 URL: Chill maar bhai 😎\n"
                             f"│   └── 🖼️ Thumbnail: {input6.text}\n"
-                            f"└── 🤖 Powered by:SAKSHAM \n\n"
+                            f"└── 🤖 Powered by:𝗢𝘄𝗻𝗲𝗿_𝟬𝟬𝟰 \n\n"
                             f"✅ File is downloading... Please wait ⏳"
                         )
                    prog = await m.reply_text(Show)
@@ -449,7 +449,7 @@ async def account_login(bot: Client, m: Message):
                             f"│   ├── 🎞️ Quality: {raw_text2}\n"
                             f"│   ├── 🔗 URL: Chill maar bhai 😎\n"
                             f"│   └── 🖼️ Thumbnail: {input6.text}\n"
-                            f"└── 🤖 Powered by: SAKSHAM\n\n"
+                            f"└── 🤖 Powered by: 𝗢𝘄𝗻𝗲𝗿_𝟬𝟬𝟰 \n\n"
                             f"✅ File is downloading... Please wait ⏳"
                         )
                     prog = await m.reply_text(Show)
@@ -476,7 +476,7 @@ async def account_login(bot: Client, m: Message):
                             f"│   ├── 🎞️ Quality: {raw_text2}\n"
                             f"│   ├── 🔗 URL: Chill maar bhai 😎\n"
                             f"│   └── 🖼️ Thumbnail: {input6.text}\n"
-                            f"└── 🤖 Powered by: SAKSHAM\n\n"
+                            f"└── 🤖 Powered by: 𝗢𝘄𝗻𝗲𝗿_𝟬𝟬𝟰 \n\n"
                             f"✅ File is downloading... Please wait ⏳"
                         )
                     prog = await m.reply_text(Show)
